@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: fallout;
+    src: url(./Resources/Fonts/Overseer-pLVd.ttf);
+}
+
+.divider{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.divider-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+
+
+/* Hero */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 110%;
+
+}
+.logo{
+    width: 550px;
+    height: 300px;
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(190, 23, 23);
+}
+
+/* Container-1 */
+
+.container-1-background{
+    background-image:url(./Resources/Images/background1.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130%;
+    width: 100%;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 750px;
+}
+.textbox1{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    width: 700px;
+    height: 100px;
+    margin: 50px 0;
+}
+.h1-1{
+    font-family: fallout;
+    font-size: 150px;
+    color: aliceblue;
+    margin: 0;
+    text-align: center;
+}
+.p-1{
+    font-size: 30px;
+    color: aliceblue;
+    text-shadow: 0 0 30px black;
+}
+
+/* Container-2 */
+
+.container-2-background-1{
+    background-image: radial-gradient(#00000000, #000000), url(./Resources/Images/backgroundfallout1.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130%;
+    width: 100%;
+}
+.container-2-background-2{
+    background-image: radial-gradient(#00000000, #000000), url(./Resources/Images/backgroundfallout2.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130%;
+    width: 100%;
+}
+.container-2-background-3{
+    background-image: radial-gradient(#00000000, #000000), url(./Resources/Images/backgroundfallout3.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130%;
+    width: 100%;
+}
+.container-2-background-4{
+    background-image: radial-gradient(#00000000, #000000), url(./Resources/Images/backgroundfallout4.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130%;
+    width: 100%;
+}
+.container-2-background-5{
+    background-image: radial-gradient(#00000000, #000000), url(./Resources/Images/backgroundfallout5.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130%;
+    width: 100%;
+}
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.textbox2{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    width: 650px;
+    height: 700px;
+    margin: 50px 0;
+}
+.mapbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+.h1-2{
+    font-family: fallout;
+    font-size: 72px;
+    color: aliceblue;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.p-2{
+    font-size: 32px;
+    color: aliceblue;
+    font-weight: 600;
+    text-shadow: 0 0 30px black;
+}
+.gamemap{
+    width: 500px;
+    height: 500px;
+}
+
+
+
+.container-3{
+
+}
+.container-3-background-1{
+    background-image: radial-gradient(#00000000, #000000), url(./Resources/Images/faction1wallpaper.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130%;
+    width: 100%;
+}
+.container-3-background-2{
+    background-image: radial-gradient(#00000000, #000000), url(./Resources/Images/faction1wallpaper.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130%;
+    width: 100%;
+}
+.container-3-background-3{
+    background-image: radial-gradient(#00000000, #000000), url(./Resources/Images/faction1wallpaper.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130%;
+    width: 100%;
+}
+.faction{
+    width: 700px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-image:url(./Resources/Images/background3.webp);
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    margin: 50px 0;
+}
+.signup2{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    margin: 50px 0;
+}
+.h1-3{
+    font-family: fallout;
+    font-size: 72px;
+    color: aliceblue;
+    margin: 0;
+    text-align: center;
+}
+.p-3{
+    font-size: 32px;
+    color: aliceblue;
+    text-shadow: 0 0 10px black;
+}
+label{
+    font-size: 32px;
+    color: aliceblue;
+    text-shadow: 0 0 10px black;
+}
